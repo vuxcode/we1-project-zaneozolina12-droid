@@ -133,20 +133,21 @@
             font-size: 22px;
         }
 
-        /* ===== MOBILE ADJUSTMENTS ===== */
 @media (max-width: 900px) {
 
-    /* Logo & nav smaller and closer together */
     .logo {
-        top: 12px;
+        top: 10px;
         left: 16px;
-        font-size: 24px;
+        font-size: 22px;      
+        line-height: 1.1;
     }
 
     .nav {
         top: 12px;
         right: 12px;
         gap: 8px;
+        flex-wrap: wrap;      
+        justify-content: flex-end;
     }
 
     .nav a {
@@ -155,7 +156,7 @@
         border-radius: 10px;
     }
 
-    /* Give content more space below header */
+  
     .page-wrapper,
     .services-section,
     .gallery-section {
@@ -163,9 +164,10 @@
         padding: 0 16px 40px;
     }
 
-    /* SERVICES PAGE: stack text and list */
+
+
     .services-layout {
-        grid-template-columns: 1fr;   /* one column */
+        grid-template-columns: 1fr;   
         gap: 30px;
         border-left: 0;
     }
@@ -174,7 +176,6 @@
         padding-left: 0;
     }
 
-    /* GALLERY BUBBLES: allow wrapping, smaller circles */
     .gallery-menu {
         flex-wrap: wrap;
         gap: 30px;
@@ -185,7 +186,6 @@
         height: 140px;
     }
 
-    /* CONTACT PAGE: cards above map (you already have similar, this reinforces it) */
     .contact-layout {
         grid-template-columns: 1fr;
     }

@@ -90,15 +90,18 @@
 @media (max-width: 900px) {
 
     .logo {
-        top: 12px;
+        top: 10px;
         left: 16px;
-        font-size: 24px;
+        font-size: 22px;      /* smaller logo on small screens */
+        line-height: 1.1;
     }
 
     .nav {
         top: 12px;
         right: 12px;
         gap: 8px;
+        flex-wrap: wrap;      /* allow buttons to wrap to two lines */
+        justify-content: flex-end;
     }
 
     .nav a {
@@ -107,13 +110,15 @@
         border-radius: 10px;
     }
 
-  
+    /* Give page content a bit more space under header */
     .page-wrapper,
     .services-section,
     .gallery-section {
         margin-top: 120px;
         padding: 0 16px 40px;
     }
+
+
 
 
     .services-layout {
