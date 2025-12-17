@@ -13,8 +13,6 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Summary
 
-## Project Summary
-
 This project is a website for a company called MP Power Bygg.
 
 The website is made with HTML and CSS.
