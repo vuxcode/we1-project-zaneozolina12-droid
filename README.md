@@ -13,4 +13,34 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Summary
 
+## Project Summary
+
+This project is a website for a company called MP Power Bygg.
+
+The website is made with HTML and CSS.
+There is no JavaScript.
+
+The website has these pages:
+- Home
+- Services (English and Swedish)
+- Gallery
+- Contact (English and Swedish)
+
+The website works on computer and mobile phone.
+I used simple responsive design. To keep it structured and uncomplicated 
+
+The gallery has buttons for:
+- Stairs
+- Kitchen
+- Roofs
+- Other
+
+Each button opens its own gallery page where all the pictures are sorted and cleand up nicley. 
+
+I used Git and GitHub to save and publish my project.
+This project helped me learn how to build a simple website.
+
+
+
+
 > Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
